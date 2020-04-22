@@ -13,5 +13,4 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
-          registry: https://registry.npmjs.org/aikin-vip
           check-version: false
