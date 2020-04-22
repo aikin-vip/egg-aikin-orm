@@ -37,17 +37,12 @@
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
-    "lint": "eslint .",
+    "lint": "eslint .  --ext .ts",
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
-  "files": [
-    "app.js",
-    "agent.js",
-    "config",
-    "app"
-  ],
+  "files": [],
   "ci": {
     "version": "8, 10"
   },
