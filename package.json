@@ -47,6 +47,7 @@
     "autod": "autod"
   },
   "files": [
+    "app.js",
     "app/**/*.js",
     "app/**/*.d.ts",
     "config/**/*.js",
