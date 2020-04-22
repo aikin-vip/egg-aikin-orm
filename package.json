@@ -1,6 +1,6 @@
 {
   "name": "egg-aikin-orm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "egg-plugin for typeorm",
   "eggPlugin": {
     "name": "orm"
@@ -39,13 +39,19 @@
   "scripts": {
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
+    "tsc": "tsc -p tsconfig.json",
     "cov": "egg-bin cov",
     "lint": "eslint .  --ext .ts",
     "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
-  "files": [],
+  "files": [
+    "app.ts",
+    "app.js",
+    "typings",
+    "config"
+  ],
   "ci": {
     "version": "8, 10"
   },
