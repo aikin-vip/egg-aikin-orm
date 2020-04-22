@@ -1,0 +1,64 @@
+{
+  "name": "egg-aikin-orm",
+  "version": "1.0.0",
+  "description": "egg-plugin for typeorm",
+  "eggPlugin": {
+    "name": "orm"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "mysql2": "^2.1.0",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.24",
+    "typeorm-typedi-extensions": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.5",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "egg-ts-helper": "^1.25.7",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "app"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikin-vip/egg-aikin-orm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aikin-vip/egg-aikin-orm/issues"
+  },
+  "homepage": "https://github.com/aikin-vip/egg-aikin-orm#readme",
+  "author": "aikin",
+  "license": "MIT"
+}
