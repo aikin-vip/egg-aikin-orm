@@ -48,9 +48,12 @@
   },
   "files": [
     "app.js",
+    "app.ts",
     "app/**/*.js",
+    "app/**/*.ts",
     "app/**/*.d.ts",
     "config/**/*.js",
+    "config/**/*.ts",
     "config/**/*.d.ts",
     "typings/**/*.d.ts"
   ],
