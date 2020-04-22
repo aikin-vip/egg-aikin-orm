@@ -30,6 +30,9 @@
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
   },
+  "publishConfig":{
+    "registry": "https://registry.npmjs.org/aikin-vip"
+  },
   "engines": {
     "node": ">=8.0.0"
   },
@@ -54,6 +57,6 @@
     "url": "https://github.com/aikin-vip/egg-aikin-orm/issues"
   },
   "homepage": "https://github.com/aikin-vip/egg-aikin-orm#readme",
-  "author": "aikin-vip",
+  "author": "aikin",
   "license": "MIT"
 }
