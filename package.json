@@ -1,6 +1,6 @@
 {
   "name": "egg-aikin-orm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "egg-plugin for typeorm",
   "eggPlugin": {
     "name": "orm"
@@ -60,7 +60,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aikin-vip/egg-aikin-orm.git"
-  },
+  },\
   "bugs": {
     "url": "https://github.com/aikin-vip/egg-aikin-orm/issues"
   },
